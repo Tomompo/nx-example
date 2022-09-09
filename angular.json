@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "rdc-admin": "apps/rdc-admin",
+    "rdc-admin-e2e": "apps/rdc-admin-e2e"
+  }
+}
