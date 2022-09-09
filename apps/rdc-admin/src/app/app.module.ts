@@ -1,12 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AdminShellModule } from '@rdc-final/admin/src/lib/shell/feature';
 
 import { AppComponent } from './app.component';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { RouterOutlet } from "@angular/router";
 
 @NgModule({
-  declarations: [AppComponent, NxWelcomeComponent],
-  imports: [BrowserModule],
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    RouterOutlet,
+    AdminShellModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

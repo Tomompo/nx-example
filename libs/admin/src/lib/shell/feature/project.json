@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/admin/src/lib/shell/feature/src",
+  "prefix": "rdc-final",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/admin/src/lib/shell/feature"],
+      "options": {
+        "jestConfig": "libs/admin/src/lib/shell/feature/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/admin/src/lib/shell/feature/**/*.ts",
+          "libs/admin/src/lib/shell/feature/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

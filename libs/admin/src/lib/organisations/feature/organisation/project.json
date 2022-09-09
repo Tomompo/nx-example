@@ -1,0 +1,27 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/admin/src/lib/organisations/feature/organisation/src",
+  "prefix": "rdc-final",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/libs/admin/src/lib/organisations/feature/organisation"
+      ],
+      "options": {
+        "jestConfig": "libs/admin/src/lib/organisations/feature/organisation/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/admin/src/lib/organisations/feature/organisation/**/*.ts",
+          "libs/admin/src/lib/organisations/feature/organisation/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/admin/src/lib/contracts/feature/contract/src",
+  "prefix": "rdc-final",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/admin/src/lib/contracts/feature/contract"],
+      "options": {
+        "jestConfig": "libs/admin/src/lib/contracts/feature/contract/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/admin/src/lib/contracts/feature/contract/**/*.ts",
+          "libs/admin/src/lib/contracts/feature/contract/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

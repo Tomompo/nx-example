@@ -14,7 +14,49 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@rdc-final/admin": ["libs/admin/src/index.ts"],
+      "@rdc-final/admin/src/lib/contracts/data-access": [
+        "libs/admin/src/lib/contracts/data-access/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/contracts/feature/contract": [
+        "libs/admin/src/lib/contracts/feature/contract/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/contracts/feature/shell": [
+        "libs/admin/src/lib/contracts/feature/shell/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/contracts/ui/layout": [
+        "libs/admin/src/lib/contracts/ui/layout/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/organisations/data-access": [
+        "libs/admin/src/lib/organisations/data-access/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/organisations/feature/organisation": [
+        "libs/admin/src/lib/organisations/feature/organisation/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/organisations/feature/organisation-list": [
+        "libs/admin/src/lib/organisations/feature/organisation-list/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/organisations/feature/shell": [
+        "libs/admin/src/lib/organisations/feature/shell/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/shell/feature": [
+        "libs/admin/src/lib/shell/feature/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/shell/ui/layout": [
+        "libs/admin/src/lib/shell/ui/layout/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/shell/ui/sidebar": [
+        "libs/admin/src/lib/shell/ui/sidebar/src/index.ts"
+      ],
+      "@rdc-final/admin/src/lib/shell/ui/topbar": [
+        "libs/admin/src/lib/shell/ui/topbar/src/index.ts"
+      ],
+      "@rdc-final/shared": ["libs/shared/src/index.ts"],
+      "@rdc-final/shared/src/lib/ui/button": [
+        "libs/shared/src/lib/ui/button/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,13 @@
+button {
+  background: orangered;
+  color: ghostwhite;
+  padding: 8px 12px;
+  cursor: pointer;
+  border:none;
+  font-weight: 700;
+  transition: all 0.5ms ease-in-out;
+
+  &:hover {
+    background: darkred;
+  }
+}

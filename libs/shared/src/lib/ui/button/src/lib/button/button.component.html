@@ -1,0 +1,10 @@
+<!-- use a directive -->
+<button>
+  <div #content>
+    <ng-content></ng-content>
+  </div>
+
+  <ng-container *ngIf="!content.children.length">
+    <span>Submit</span>
+  </ng-container>
+</button>

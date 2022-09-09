@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/admin/src/lib/organisations/data-access/src",
+  "prefix": "rdc-final",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/admin/src/lib/organisations/data-access"],
+      "options": {
+        "jestConfig": "libs/admin/src/lib/organisations/data-access/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/admin/src/lib/organisations/data-access/**/*.ts",
+          "libs/admin/src/lib/organisations/data-access/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

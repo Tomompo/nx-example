@@ -2,7 +2,24 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "admin": "libs/admin",
+    "admin-e2e": "apps/admin-e2e",
+    "admin-src-lib-contracts-data-access": "libs/admin/src/lib/contracts/data-access",
+    "admin-src-lib-contracts-feature-contract": "libs/admin/src/lib/contracts/feature/contract",
+    "admin-src-lib-contracts-feature-shell": "libs/admin/src/lib/contracts/feature/shell",
+    "admin-src-lib-contracts-ui-layout": "libs/admin/src/lib/contracts/ui/layout",
+    "admin-src-lib-organisations-data-access": "libs/admin/src/lib/organisations/data-access",
+    "admin-src-lib-organisations-feature-organisation": "libs/admin/src/lib/organisations/feature/organisation",
+    "admin-src-lib-organisations-feature-organisation-list": "libs/admin/src/lib/organisations/feature/organisation-list",
+    "admin-src-lib-organisations-feature-shell": "libs/admin/src/lib/organisations/feature/shell",
+    "admin-src-lib-shell-feature": "libs/admin/src/lib/shell/feature",
+    "admin-src-lib-shell-ui-layout": "libs/admin/src/lib/shell/ui/layout",
+    "admin-src-lib-shell-ui-sidebar": "libs/admin/src/lib/shell/ui/sidebar",
+    "admin-src-lib-shell-ui-topbar": "libs/admin/src/lib/shell/ui/topbar",
     "rdc-admin": "apps/rdc-admin",
-    "rdc-admin-e2e": "apps/rdc-admin-e2e"
+    "rdc-admin-e2e": "apps/rdc-admin-e2e",
+    "shared": "libs/shared",
+    "shared-e2e": "apps/shared-e2e",
+    "shared-src-lib-ui-button": "libs/shared/src/lib/ui/button"
   }
 }
